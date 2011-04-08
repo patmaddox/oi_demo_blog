@@ -1,0 +1,13 @@
+Install necessary gems:
+  bundle install
+
+Create and migrate database:
+  rake db:create db:migrate
+
+Start up server:
+  rails s
+
+Visit blog list:
+  http://localhost:3000/blog_posts
+
+Create a blog post, go back to the index, click the "Halos" link at the bottom, and then click on the "Inspect" link that shows up in the blog posts list.
